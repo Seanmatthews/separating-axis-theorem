@@ -8,5 +8,5 @@ include_directories(${PCL_INCLUDE_DIRS})
 link_directories(${PCL_LIBRARY_DIRS})
 add_definitions(${PCL_DEFINITIONS})
 
-add_executable(sat main.cpp)
+add_executable(sat SeparatingAxisTheorem.cpp main.cpp)
 target_link_libraries(sat ${PCL_LIBRARIES})
